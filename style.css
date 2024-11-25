@@ -1,0 +1,226 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+body {  
+    background-color: #fff;
+}
+
+
+img {
+    width: 260px;
+}
+
+.texto > h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;}
+p {
+    font-size: 14px;
+}
+.link {
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    text-decoration: none;
+}
+.container {
+    margin: 80px 293px;
+    display: flex;
+    box-sizing: border-box;
+}
+.loginesquerdo {
+    margin-top: 132px;
+    height: 200px;
+    padding-right: 100px;
+
+}
+
+
+.logindireito {
+    padding-bottom: 20px;
+}
+.logindireito > .pag {
+    text-decoration: none;
+    text-align: center;
+}
+.caixalogin {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 320px;
+    margin-bottom: 25px;
+    margin-top: 63px;
+    padding-bottom: 19px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 3px, rgba(0, 0, 0, 0.1) 0px 8px 16px 3px;
+}
+.caixalogin > button {
+    background-color: #0866ff;
+    width: 90%;
+    height: 50px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    align-self: center;
+    margin: 3% 5%;
+    cursor: pointer;
+    transition: all 0.5s ease ;
+   }
+
+.caixalogin > button:hover {
+    background-color: #1877f2;
+}
+
+.btn.cadastro > button {
+    background-color:#42b72a;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 45%;
+    height: 45px;
+    margin-left: 27.5%;
+    margin-right: 25%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+
+
+.caixalogin > .esqueceu {
+    margin-top: 1px;
+    text-decoration: none;
+    color: #0866ff;
+    display: flex;
+    justify-content: center;;
+    font-size: 87%;
+    cursor: pointer;
+}
+
+
+
+input {
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    box-shadow: 0px 0px 6px rgba(18, 5, 56, 0.295);
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0 5%;
+    border: none;
+    margin-left: 40px;
+}
+.caixalogin > .form {
+    margin: 3% 0%;
+}
+
+.criepag {
+    margin-top: -20;
+    display: flex;
+    justify-content: center; 
+    align-content: flex-end;
+
+}
+
+/* tigresa vip */
+
+.footer {
+    font-size: 12px;
+    margin-left: 240px;
+}
+
+li a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.ulli{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 640.6px;
+}
+
+.ulli li {
+    padding-left: 6px;
+}
+
+.ulli .fa-solid {
+    display: flex;
+    margin-left: 7px;
+    font-size: 15px;
+    vertical-align: top;
+    box-sizing: border-box;
+    align-items: center;    
+    padding-top: 4px;
+    border: none;
+
+}
+
+.langbut {
+    margin-left: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    border-radius: 4px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 2px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    position: relative;
+    transition: color 2s ease, 0.5s color, ;
+    border: none;
+    cursor: pointer;
+}
+
+
+.langbut:active {
+    color: rgb(156, 154, 154);
+}
+
+.separador {
+    border: 1px solid #dddfe2;
+    height: 0.00001px;
+
+}
+
+
+.footer2 {
+    font-size: 12px;
+
+}
+
+.ulli2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 252px;
+    margin-right: 5px;
+    width: 980px;
+}
+
+.ulli2>li{
+    margin-right: 5px;
+    justify-content: center;
+    margin-right: 24.2px;
+
+}
+
+.copy {
+    font-size: 11px;
+    color: #737373;
+    margin-left: 293.8px;
+    padding-top: 25px;
+}
